@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[c]
+*.pyw$
+*.egg
+*.egg-info/
+.dist/
+.bugreport
+ egg/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch
+*.pt
+*.pth
+torch/**/*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorFlow/Keras
+best_rnn_model.keras
+*.h5
+*.hdf5
+
+# Data files (large CSVs)
+*.csv
